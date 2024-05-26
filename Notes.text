@@ -1,0 +1,12 @@
+Java Bootcamp 
+===================================
+
+1) In Java, there is only pass value concept in methods
+2) We can change the primitive datastypes vlues using blocks
+3) Already Initialised outside the block in the same method, hence you cannot initialised again.
+4) Values initialised in the block,will remains in block.
+5) Anythings initalised outside the block can be used inside the block 
+6) Anythings initalised inside the block can't be used outside the block 
+7) Shadowing in java means its a practices of using two variables with the same name within the scope thats overlap
+
+
