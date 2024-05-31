@@ -9,9 +9,11 @@ Java Bootcamp
 6) Anythings initalised inside the block can't be used outside the block 
 7) Shadowing in java means its a practices of using two variables with the same name within the scope thats overlap
 8) In shadowing, Scope will be begining when value is initialised 
-9) JVM decide the array is continues stored in memory or not becouse:
+9) Array object in java may not be Continues becouse:
 	i) Array object are stored in heap
 	ii) Heap object are not continues 
-	
+10) new is used to create an Object
+11) Premitives are stored in stack memory only and all non premitives (array,string) are stored in heap memory 
+12) Strings are inmutables in java and array are mutable.
 
 
