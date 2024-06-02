@@ -17,3 +17,18 @@ Java Bootcamp
 12) Strings are inmutables in java and array are mutable.
 
 
+==========================================================================================
+Object Oriented Programming
+-----------------------------
+
+1) new operator is dyanmically allocates memory at runtime and return reference to it.
+   hence all class in java allocated dyanamically 
+
+2) constructor is special function, that runs when you create an  object and allocates some variables 
+
+3) final variables always initized it while declearing it 
+
+4) Values of instace variable never changed it always refer to same object but value of 
+object can changed
+
+5) When a non premitive is final, you cannot reassign it.
