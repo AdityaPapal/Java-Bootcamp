@@ -48,4 +48,23 @@ object can changed
 12) Only inner static can vaild otherwise gives error 
 13) Outside class can not be static because it is not itslef dependent on another class 
 
+14) Inheritance means if there is a class that is able to use properties and other suff's from other class 
 
+15) Super method is used to initialise values present in parent class
+
+16) it is actually the type of reference vairiable that determines and not the type of the object that determines what member can be access 
+(example in parents teacher meeting tearcher is access out parents not us)
+
+15) Multiple and hybrid inheritance are not allowed in java 
+
+16) Poly means many and morphism means many way to represent 
+17) act of representing in multiple ways  
+
+18) Types of polymorphism:
+	i) Complie time/ Static Polymorphism achieved by method overloading(ex.multiple constructor)
+	ii) Run time / Dynamic Polymorphism achieved by method overriding (ex.)
+
+19) Encapsulation means wrapping up implementation of the data member
+
+20) Hiding unnessary details and showing valuable information
+21) Abstraction is design level issue and encapsulation solving implementation level issue
