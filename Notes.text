@@ -32,3 +32,20 @@ Object Oriented Programming
 object can changed
 
 5) When a non premitive is final, you cannot reassign it.
+
+6) Packages are cantainers of classes, nothing but folder
+
+7) Static :- When a member decleared static it can be access before any of the object of the class been created and without referencing to object 
+
+8) inside static method you cannot use anything that non static
+
+9) Static method only access only static data 
+
+10) Non static data belongs to an object 
+
+11) Static is not dependent of an object 
+
+12) Only inner static can vaild otherwise gives error 
+13) Outside class can not be static because it is not itslef dependent on another class 
+
+
