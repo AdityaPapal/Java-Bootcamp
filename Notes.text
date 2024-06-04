@@ -1,5 +1,6 @@
 Java Bootcamp 
-===================================
+==========================================================================================
+Core Java 
 
 1) In Java, there is only pass value concept in methods
 2) We can change the primitive datastypes vlues using blocks
@@ -68,3 +69,28 @@ object can changed
 
 20) Hiding unnessary details and showing valuable information
 21) Abstraction is design level issue and encapsulation solving implementation level issue
+------------------------------------------------------------------------------------------
+Accesss modifier
+	+ : Access
+	- : Not Access
+
+			| Class |   Package  |  subclass  |  subclass  | World 
+			|		| 			 | (same pkg) | (diff pkg) | (diff pkg & not Subclass) 
+------------|-------|------------|------------|------------|-----------------------------
+Public		|	+	|	  +		 |		+	  |		+	   |	+
+------------|-------|------------|------------|------------|-----------------------------
+Protected	|	+	|	  +		 |		+	  |		+	   |	-
+------------|-------|------------|------------|------------|-----------------------------
+No Modifier	|	+	|	  +		 |		+	  |		-	   | 	-
+------------|-------|------------|------------|------------|-----------------------------
+Private		|	+	|	  -		 |		-	  |		-	   |	-
+------------|-------|------------|------------|------------|-----------------------------
+
+
+1) Only Subclass can access the member in protected class when its outside in package 
+
+
+==========================================================================================
+Object Class 
+1) Object class is root of class hierarchy 
+2) hashcode method gives number representation of object 
