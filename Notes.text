@@ -106,3 +106,32 @@ Interfaces
 4) We use interface beacuse multiple inheritance not allowed in java so interface overcome this problem 
 5) We can implemented multile interface togather 
 6) Interfaces not care about two calss related or not  
+=========================================================================================
+Anotation
+----------------------
+1) Anotation internally its an interface  
+=========================================================================================
+Exception Handling
+------------------------------
+										----------
+										| Object |
+										----------
+										     |
+										-----------
+									    |Throuable|
+									    -----------
+									    	 |
+						----------------------------------------------
+						|											 |				
+				  -----------									----------
+				  |Exception|									|  Error |
+				  -----------									----------
+				       |
+	     ----------------------------
+	     |							|
+	---------				   -----------
+	| Check	|				   |Unchecked|
+	---------			  	   -----------
+
+1) Checked Exception are get during complied time 
+2) Unchecked exception get during file is running (ig. divided by 0)
