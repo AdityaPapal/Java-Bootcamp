@@ -135,3 +135,4 @@ Exception Handling
 
 1) Checked Exception are get during complied time 
 2) Unchecked exception get during file is running (ig. divided by 0)
+	
