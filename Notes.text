@@ -16,9 +16,7 @@ Core Java
 10) new is used to create an Object
 11) Premitives are stored in stack memory only and all non premitives (array,string) are stored in heap memory 
 12) Strings are inmutables in java and array are mutable.
-
-
-==========================================================================================
+=========================================================================================
 Object Oriented Programming
 -----------------------------
 
@@ -69,8 +67,9 @@ object can changed
 
 20) Hiding unnessary details and showing valuable information
 21) Abstraction is design level issue and encapsulation solving implementation level issue
-------------------------------------------------------------------------------------------
+=========================================================================================
 Accesss modifier
+----------------
 	+ : Access
 	- : Not Access
 
@@ -88,9 +87,22 @@ Private		|	+	|	  -		 |		-	  |		-	   |	-
 
 
 1) Only Subclass can access the member in protected class when its outside in package 
-
-
-==========================================================================================
+=========================================================================================
 Object Class 
+--------------
 1) Object class is root of class hierarchy 
 2) hashcode method gives number representation of object 
+=========================================================================================
+Abstract Methods
+------------------
+1) Any class that contains one or more abstrct method must also be decleared as abstract 
+2) You can't create object of abstract class
+=========================================================================================
+Interfaces
+---------------
+1) Interfaces contains abstract functions
+2) Interface most specifically like what a class doing not, how class doing 
+3) Abstract class provoid the implementation of interface but interface can't provoid 	the implementation of abstract calss 
+4) We use interface beacuse multiple inheritance not allowed in java so interface overcome this problem 
+5) We can implemented multile interface togather 
+6) Interfaces not care about two calss related or not  
