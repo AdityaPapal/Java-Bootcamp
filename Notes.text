@@ -141,4 +141,5 @@ Exception Handling
 Collection
 -----------------
 1) A collection is a framework that provides an architecture to store and manipulate a group of objects.
+
 2) Collections are used to perform operations such as searching, sorting, insertion, manipulation, and deletion on data.
