@@ -1,5 +1,5 @@
 Java Bootcamp 
-==========================================================================================
+=========================================================================================
 Core Java 
 
 1) In Java, there is only pass value concept in methods
@@ -135,7 +135,8 @@ Exception Handling
 
 1) Checked Exception are get during complied time 
 2) Unchecked exception get during file is running (ig. divided by 0)
-<<<<<<< HEAD
-	
-=======
->>>>>>> javacore
+=========================================================================================
+Collection
+-----------------
+1) A collection is a framework that provides an architecture to store and manipulate a group of objects.
+2) Collections are used to perform operations such as searching, sorting, insertion, manipulation, and deletion on data.
