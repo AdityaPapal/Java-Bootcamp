@@ -22,51 +22,52 @@ Object Oriented Programming
 
 1) new operator is dyanmically allocates memory at runtime and return reference to it.
    hence all class in java allocated dyanamically 
-
 2) constructor is special function, that runs when you create an  object and allocates some variables 
-
 3) final variables always initized it while declearing it 
-
 4) Values of instace variable never changed it always refer to same object but value of 
 object can changed
-
 5) When a non premitive is final, you cannot reassign it.
-
 6) Packages are cantainers of classes, nothing but folder
 
-7) Static :- When a member decleared static it can be access before any of the object of the class been created and without referencing to object 
+=========================================================================================
+Static
+---------------------
 
-8) inside static method you cannot use anything that non static
+1) Static :- When a member decleared static it can be access before any of the object of the class been created and without referencing to object 
+2) inside static method you cannot use anything that non static
+3) Static method only access only static data 
+4) Non static data belongs to an object 
+5) Static is not dependent of an object 
+6) Only inner static can vaild otherwise gives error 
+7) Outside class can not be static because it is not itslef dependent on another class 
 
-9) Static method only access only static data 
+=========================================================================================
+Inheritance
+------------------------
 
-10) Non static data belongs to an object 
-
-11) Static is not dependent of an object 
-
-12) Only inner static can vaild otherwise gives error 
-13) Outside class can not be static because it is not itslef dependent on another class 
-
-14) Inheritance means if there is a class that is able to use properties and other suff's from other class 
-
-15) Super method is used to initialise values present in parent class
-
-16) it is actually the type of reference vairiable that determines and not the type of the object that determines what member can be access 
+1) Inheritance means if there is a class that is able to use properties and other suff's from other class 
+2) Super method is used to initialise values present in parent class
+3) it is actually the type of reference vairiable that determines and not the type of the object that determines what member can be access 
 (example in parents teacher meeting tearcher is access out parents not us)
+4) Multiple and hybrid inheritance are not allowed in java 
+5) Because abiguity problem we can't use multiple and hybrid inheritance
+=========================================================================================
+Polymorphism
+-----------------
 
-15) Multiple and hybrid inheritance are not allowed in java 
-
-16) Poly means many and morphism means many way to represent 
-17) act of representing in multiple ways  
-
-18) Types of polymorphism:
+1) Poly means many and morphism means many way to represent 
+2) act of representing in multiple ways  
+3) Types of polymorphism:
 	i) Complie time/ Static Polymorphism achieved by method overloading(ex.multiple constructor)
 	ii) Run time / Dynamic Polymorphism achieved by method overriding (ex.)
 
-19) Encapsulation means wrapping up implementation of the data member
+=========================================================================================
+Encapsulation
+-----------------------
+1) Encapsulation means wrapping up implementation of the data member
+2) Hiding unnessary details and showing valuable information
+3) Abstraction is design level issue and encapsulation solving implementation level issue
 
-20) Hiding unnessary details and showing valuable information
-21) Abstraction is design level issue and encapsulation solving implementation level issue
 =========================================================================================
 Accesss modifier
 ----------------
@@ -106,6 +107,7 @@ Interfaces
 4) We use interface beacuse multiple inheritance not allowed in java so interface overcome this problem 
 5) We can implemented multile interface togather 
 6) Interfaces not care about two calss related or not  
+
 =========================================================================================
 Anotation
 ----------------------

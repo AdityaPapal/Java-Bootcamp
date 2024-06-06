@@ -1,0 +1,33 @@
+Diamond Problem
+======================================================
+1) The "diamond problem" is a common issue in multiple inheritance scenarios where a class inherits from two classes that both inherit from a common base class. 
+
+2) This creates an ambiguity as the compiler is unsure which path to follow to access the base class methods or properties. 
+
+3)The term "diamond problem" comes from the diamond-shaped inheritance diagram that results from this scenario.
+
+								-----
+								| A |
+								-----
+								/   \
+							   /     \
+							-----   -----   
+							| B |   | C |
+							-----   -----
+							   \     /
+	 						    \   /
+	 						    -----
+	 						    | D |
+	 						    -----
+
+
+Diamond Problem in Multiple Inheritance
+------------------------------------------
+In languages that support multiple inheritance, such as C++, the diamond problem arises when:
+
+: Class A is the base class.
+: Classes B and C inherit from Class A.
+: Class D inherits from both Classes B and C.
+
+- The ambiguity occurs because Class D inherits the features of Class A through both B and C, leading to potential conflicts or redundancy.
+
