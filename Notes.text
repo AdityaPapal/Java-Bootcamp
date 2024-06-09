@@ -107,6 +107,12 @@ Interfaces
 4) We use interface beacuse multiple inheritance not allowed in java so interface overcome this problem 
 5) We can implemented multile interface togather 
 6) Interfaces not care about two calss related or not  
+Types of Interface:
+	a) Normal Interface: If there two or more method in interface they called as Normal Interface
+	b) Functional / Sam: IF there are only one method in interface they called as SAM Interface
+	c)Marker Interface: There are no any methods in interface or blank interface called as Marker Interface.
+
+
 
 =========================================================================================
 Anotation
@@ -143,3 +149,17 @@ Collection
 1) A collection is a framework that provides an architecture to store and manipulate a group of objects.
 
 2) Collections are used to perform operations such as searching, sorting, insertion, manipulation, and deletion on data.
+
+=========================================================================================
+Exception Handling
+--------------------------
+1) Types of error
+	a) Complie time error 
+	b) Run time error
+	c) Logical Error 
+	
+=========================================================================================
+Threads 
+-----------------------------
+1) whenever we have to run 2 things at same time we use threads
+2) In every thread you need to run method that how it works
