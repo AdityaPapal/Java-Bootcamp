@@ -1,0 +1,12 @@
+JDBC Connectivity
+====================================================
+1) Steps
+	i) import packages
+	ii) Load Driver
+	iii) Register Driver 
+	iv) Create Connection   --- imp 
+	v) Create statements 	--- imp  
+	vi) Executes Statements --- imp 
+	vii) close				--- imp
+
+
